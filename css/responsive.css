@@ -1,0 +1,185 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  
+  .menu-trigger{
+    opacity: 0;
+    visibility: hidden;
+  }
+  }
+  
+  /* 
+  Medium layout
+  */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .menubar-1 li {
+      margin-top: 65px;
+  }
+  .margin_left {
+    margin-left: 8%;
+}
+.left {
+  margin-left: -13%;
+  width: 64%;
+}
+.menu-trigger{
+  opacity: 0;
+  visibility: hidden;
+}
+
+    
+  }
+  
+  /* 
+    tablet layout
+  */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-trigger{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menubar-1  li a{
+      opacity: 0;
+      visibility: hidden;
+    }
+    .menubar-2 ul li a {
+      display: none;
+  }
+  .heading-1 {
+    
+    height: 100px;
+}
+header.sticky {
+  background-color: #fff;
+  height: 100px;
+}
+.section_card3{
+  
+  top: 60%;
+
+}
+.section_card2{ 
+  top: 63%;
+}
+.section_card1{ 
+  top: 53%;
+}
+.time{
+  top:0%;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  
+}
+
+
+
+   /* 
+    Mobile layout
+  */
+  @media only screen and (max-width: 767px) {
+
+    a.add {
+      margin-left: 36px;
+  }
+  .footer_menu li {
+    list-style: none;
+    line-height: 25px;
+    height: 25px;
+    margin-top: -7px;
+}
+
+
+    .menu-trigger{
+      opacity: 1;
+      visibility: visible;
+    }
+    .off-canvus.show-off-canvus {
+      width: 96%;}
+      .menu-1 li,.menu-2 li{
+        padding: 4px 0;
+      }
+    .heading-1 {
+    
+      height: 89px;
+  }
+  header.sticky {
+    background-color: #fff;
+    height: 90px;
+  }
+  .menubar-1  li a{
+    opacity: 0;
+    visibility: hidden;
+  }
+  .menubar-2 ul li a {
+    display: none;
+}
+.logo1,.logo3{
+  display: none;
+}   
+
+#buet_name h1 {
+  font-size: 28px;
+}
+#buet_name p{
+  font-size: 36px;
+}
+.card3, .card4 {
+  height: 361px;
+}
+
+.time {
+  background-color: #aa0000;
+  position: absolute;
+  right: 0%; 
+  left: 2%; 
+  width: 96%;
+  top: -3%;
+}
+
+.card1_height{
+  height: 72px;
+}
+.section_card1{ 
+  top: 50%;
+}
+.borderRight{
+  border: none;
+}
+.section h3{
+  padding: 0 10px 0 55px;
+}
+}
+
+  @media only screen and (max-width: 465px){
+  
+.off-canvus.show-off-canvus {
+  width: 93%;}
+  
+   
+  }
+  @media only screen and (max-width: 530px){
+  
+    a.add{
+      margin-left: 0;
+    }
+    .off-canvus.show-off-canvus {
+      width: 94%;}
+       
+      }
+
+ 
